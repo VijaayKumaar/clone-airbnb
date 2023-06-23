@@ -1,0 +1,47 @@
+
+
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  margin-top: 10px; 
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #003580;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navButton:hover {
+  background-color: #0071c2;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    padding: 0 10px;
+  }
+  
+  .navButton {
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
